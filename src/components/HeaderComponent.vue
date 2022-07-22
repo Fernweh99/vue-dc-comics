@@ -80,7 +80,6 @@ export default {
 <style lang="scss" scoped>
   header {
     background-color: #fff;
-    margin-top: 15px
   }
   nav {
     display: flex;
@@ -92,6 +91,9 @@ export default {
     height: 100%;
     padding: 10px;
   }
+  ul li {
+    display: inline-block;
+  }
   .col-link a{
    color: #707070;
    text-transform: uppercase;
@@ -101,6 +103,7 @@ export default {
    line-height: 90px;
    font-weight: bold;
    border-bottom: 2px solid transparent;
+      display: inline-block;
   }
   .col-link a.active,
   .col-link a:hover {

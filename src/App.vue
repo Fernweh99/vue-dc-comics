@@ -2,12 +2,14 @@
   <div>
     <HeaderComponent/>
     <MainComponent/>
+    <FooterComponent/>
   </div>
 </template>
 
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue"
 import MainComponent from "./components/MainComponent.vue"
+import FooterComponent from "./components/FooterComponent.vue"
 
 
 export default {
@@ -15,6 +17,7 @@ export default {
   components: {
     HeaderComponent,
     MainComponent,
+    FooterComponent,
   }
 }
 </script>
@@ -31,12 +34,7 @@ export default {
     list-style-type: none;
   }
 
-  ul li {
-    display: inline-block;
-  }
-
   a {
-    display: inline-block;
     text-decoration: none;
   }
 
@@ -44,6 +42,7 @@ export default {
     font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;;
     background-color: #0E0E0E;
     color: #fff;
+    padding: 15px 0;
   }
   img {
     height: auto;
