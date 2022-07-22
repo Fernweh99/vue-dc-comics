@@ -1,16 +1,20 @@
 <template>
   <div>
     <HeaderComponent/>
+    <MainComponent/>
   </div>
 </template>
 
 <script>
 import HeaderComponent from "./components/HeaderComponent.vue"
+import MainComponent from "./components/MainComponent.vue"
+
 
 export default {
   name: 'DcSite',
   components: {
     HeaderComponent,
+    MainComponent,
   }
 }
 </script>
@@ -39,6 +43,7 @@ export default {
   body {
     font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;;
     background-color: #0E0E0E;
+    color: #fff;
   }
   img {
     height: auto;
