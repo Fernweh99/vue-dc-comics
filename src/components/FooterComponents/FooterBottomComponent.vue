@@ -29,27 +29,27 @@ export default {
 <style lang="scss" scoped>
   .footer-bottom{
     background-color: #303030;
-  }
-  nav {
-    padding: 20px 0;
+    nav {
+      padding: 20px 0;
+      .row {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        .col-right {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
   }
   h4 {
     color: #0082F9;
   }
-  .col-right {
-    display: flex;
-    align-items: center;
-  }
   ul {
-    display: flex;
-  }
-  ul li {
-    margin-left: 20px;
-  }
-  .row {
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+    display: flex;  
+    li {
+      margin-left: 20px;
+    }
   }
   a.btn {
     font-size: 14px;

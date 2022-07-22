@@ -80,12 +80,27 @@ export default {
 <style lang="scss" scoped>
   header {
     background-color: #fff;
-  }
-  nav {
-    display: flex;
-    width: 100%;
-    height: 90px;
-    justify-content: space-between;
+    nav {
+      display: flex;
+      width: 100%;
+      height: 90px;
+      justify-content: space-between;
+      .col-link a{
+        color: #707070;
+        text-transform: uppercase;
+        margin-left:25px;
+        font-size: 12px;
+        height:100%;
+        line-height: 90px;
+        font-weight: bold;
+        border-bottom: 2px solid transparent;
+        display: inline-block;
+        &.active,&:hover {
+          color: #0082F9;
+          border-bottom: 3px solid #0082F9;
+        }
+      }
+    }
   }
   img {
     height: 100%;
@@ -93,22 +108,6 @@ export default {
   }
   ul li {
     display: inline-block;
-  }
-  .col-link a{
-   color: #707070;
-   text-transform: uppercase;
-   margin-left:25px;
-   font-size: 12px;
-   height:100%;
-   line-height: 90px;
-   font-weight: bold;
-   border-bottom: 2px solid transparent;
-      display: inline-block;
-  }
-  .col-link a.active,
-  .col-link a:hover {
-    color: #0082F9;
-    border-bottom: 3px solid #0082F9;
   }
   
 </style>

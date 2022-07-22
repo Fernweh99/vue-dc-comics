@@ -62,20 +62,20 @@ export default {
 <style lang="scss" scoped>
   .footer-top {
     background-image: url("../../assets/img/footer-bg.jpg");
-  }
-  .row {
-    display: flex;
-    position: relative;
-  }
-  .row .col {
-    padding: 30px 0;
-    margin-right: 25px;
-  }
-  .row .col-img {
-    flex-grow: 1;
-    background-image: url("../../assets/img/dc-logo-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
+    .row {
+      display: flex;
+      position: relative;
+      .col {
+        padding: 30px 0;
+        margin-right: 25px;
+      }
+      .col-img {
+        flex-grow: 1;
+        background-image: url("../../assets/img/dc-logo-bg.png");
+        background-repeat: no-repeat;
+        background-position: right;
+      }
+    }
   }
   h4{
     margin: 15px 0;
