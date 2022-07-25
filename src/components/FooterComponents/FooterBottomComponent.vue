@@ -5,7 +5,7 @@
         <div class="col">
           <a class="btn" href="#">SIGN-UP NOW!</a>
         </div>
-        <div class="col-right">
+        <div class="col d-flex align-items-center justify-content-end">
           <h4>FOLLOW US</h4>
           <ul>
             <li><a href="#"><img src="../../assets/img/footer-facebook.png" alt="facebook icon" /></a></li>
